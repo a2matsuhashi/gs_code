@@ -1,0 +1,220 @@
+/* body */
+body {
+    margin: 0;
+    color: rgb(75, 75, 75);
+}
+a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+.a {
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    padding: 50px 20px 20 px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+}
+h1 {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    margin: 0;
+    font-size: 45px;
+    line-height: 1;
+    color: #fff;
+}
+.h_left {
+    width: 80%;
+}
+.h_right {
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+/* form */
+form {
+    padding: 20px;
+    /* background-color: #dfe3e8; */
+}
+form p {
+    margin: 0 0 20px 0;
+}
+label {
+    display: block;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 200px;
+    padding: 5px 10px 5px 10px;
+    border: solid 1px #aaa;
+    border-radius: 0;
+    background-image: none;
+    font-family: inherit;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+textarea {
+    height: 80px;
+}
+input[type="text"]:focus,
+input[type="email"]:focucs,
+textarea:focus {
+    border: solid 1px #0cf;
+    outline: none;
+    -webkit-box-shadow: 0 0 5px 0 #0cf;
+    box-shadow: 0 0 5px 0 #0cf; 
+}
+
+/* ボタン */
+input[type="submit"],
+.button {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 0;
+    background-color: #fa0;
+    background-image: none;
+    color: #000;
+    font-family: inherit;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    outline: none;
+    background-color: #cf0;
+}
+input[type="submit"]::-moz-focus-inner{
+    padding: 0;
+    border: none;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: auto;
+}
+table, th, td {
+    border-top: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
+}
+th, td {
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+}
+th {
+    background-color: rgb(255, 198, 113);
+}
+tr > :first-child {
+    width: 50px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* index */
+h2 {
+    text-align: center;
+}
+
+/* bm */
+.bm {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bm_left {
+    width: 300px;
+}
+.bm_right {
+    width: 500px;
+}
+.bm_button {
+    text-align: center;
+}
+
+/* select */
+/* .col {
+    width: 48.5%;
+    float: left;
+    margin-left: 3%;
+    *clear: right;
+}
+.col:first-child {
+    margin-left: 0;
+}
+.col:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.cols {
+    *zoom: 1;
+    width: 800px;
+    margin: auto;
+} */
+
+.cols {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+.col {
+	margin-bottom: 3rem;
+	padding: 20px;
+	width: 43%;
+    background-color: #f0f0f0;
+    border: solid 1px #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.col img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 30px 0;
+    vertical-align: bottom;
+}
+.col h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: solid 1px #aaa;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.col p {
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
